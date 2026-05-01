@@ -2,7 +2,7 @@
 
 # LFFA
 
-## LFFA: Learnable Frozen Feature Augmentation for Few-Shot Whole-Slide Image Learning
+## Learnable frozen feature augmentation for few-shot biomarker prediction from pathology whole-slide images
 
 
 ### Datasets
