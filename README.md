@@ -5,6 +5,21 @@
 ## LFFA: Learnable Frozen Feature Augmentation for Few-Shot Whole-Slide Image Learning
 
 
+### Datasets
+
+We evaluate LFFA on three real-world pathology whole-slide image datasets for biomarker-oriented prediction tasks.
+
+- **BCNB**: We use BCNB for estrogen receptor (ER) status prediction from breast cancer whole-slide images. The dataset information and access instructions are available at:  
+  https://bupt-ai-cz.github.io/BCNB/
+
+- **MUT-HET-RCC**: We use MUT-HET-RCC for SETD2 mutation prediction from renal cancer whole-slide images. The dataset is described in Acosta et al., *Cancer Research*, 2022. More information is available at:  
+  https://aacrjournals.org/cancerres/article/82/15/2792/707325/Intratumoral-Resolution-of-Driver-Gene-Mutation
+
+- **CPTAC-CCRCC**: We use CPTAC-CCRCC as the external test cohort for cross-cohort PBRM1 mutation prediction. The dataset is available from The Cancer Imaging Archive (TCIA):  
+  https://www.cancerimagingarchive.net/collection/cptac-ccrcc/
+
+Due to data usage restrictions, the raw whole-slide images are not redistributed in this repository. Users should obtain the raw data from the original data providers. We provide the processed experimental split files and the code needed to reproduce the experiments after feature extraction.
+
 ### Data Preprocess
 We follow the CLAM's WSI preprocessing solution. To satisfy LFFA’s requirement for patch coordinate information, we store both the extracted features and their corresponding coordinates in a single `.npy` file.
 The saving format is as follows:
