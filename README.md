@@ -86,5 +86,19 @@ python -u train_wsi_model.py \
   --head_way fewshot \
   --infer_time 0
 ```
+## Citation
+If you find our work useful in your research, please consider citing LFFA:
 
+```
+@article{zhang2026learnable,
+  title={Learnable frozen feature augmentation for few-shot biomarker prediction from pathology whole-slide images},
+  author={Zhang, Di and Liu, Jiashuai and Ma, Youyuan and Ge, Jiusong and Zeng, Zhi and Sun, Wenfang and Liu, Qidong and He, Kai and Zheng, Yefeng and Yu, Weimiao and others},
+  journal={Bioinformatics},
+  volume={42},
+  number={8},
+  pages={btag597},
+  year={2026},
+  publisher={Oxford University Press}
+}
+```
 
