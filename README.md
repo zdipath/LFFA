@@ -4,6 +4,12 @@
 
 ## Learnable frozen feature augmentation for few-shot biomarker prediction from pathology whole-slide images
 
+<div align="center">
+  
+[![Bioinformatics](https://img.shields.io/badge/Arxiv-2602.21637-red
+)](https://academic.oup.com/bioinformatics/article/42/8/btag597/8756691)
+</div>
+
 
 ### Datasets
 
