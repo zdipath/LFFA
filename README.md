@@ -6,7 +6,7 @@
 
 <div align="center">
   
-[![Bioinformatics](https://img.shields.io/badge/Bioinformatics-2602.21637-red
+[![Bioinformatics](https://img.shields.io/badge/Bioinformatics-btag597-red
 )](https://academic.oup.com/bioinformatics/article/42/8/btag597/8756691)
 </div>
 
